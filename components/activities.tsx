@@ -19,7 +19,7 @@ const activities = [
     icon: TreePine,
     title: "Senderismo",
     description: "Explora los senderos con la belleza de árboles frutales que nos rodean.",
-    image: "/senderismo.jpg",
+    image: "/senderismo.JPG",
   },
   {
     icon: Bird,
