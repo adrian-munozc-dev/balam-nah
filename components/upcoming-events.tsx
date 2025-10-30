@@ -53,7 +53,7 @@ export function UpcomingEvents() {
     <section id="eventos" className="relative py-20 md:py-32 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src="/hanal.jpg" alt="Eventos Balam-Nah" className="w-full h-full object-cover" />
+        <img src="/hanal.JPG" alt="Eventos Balam-Nah" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/50" />
       </div>
 
