@@ -7,16 +7,21 @@ import { LocationMap } from "@/components/location-map"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
+import { ChristmasBanner } from "@/components/christmas-banner"
+import { Snowfall } from "@/components/snowfall"
+import { ChristmasFlyers } from "@/components/christmas-flyers"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navigation />
+      <Snowfall />
       <Hero />
       <Activities />
       <Gallery />
       <Testimonials />
-      <UpcomingEvents />
+      <ChristmasBanner />
+      <ChristmasFlyers />
       <LocationMap />
       <Contact />
       <Footer />

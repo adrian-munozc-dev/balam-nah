@@ -10,7 +10,7 @@ const activities = [
   },
   {
     icon: Sparkles,
-    title: "Glamping",
+    title: "Hospedaje del Jaguar",
     description:
       "Disfruta de las increíbles mañanas, atardeceres y noches estrelladas en nuestro magnífico alojamiento en Balam-Nah.",
     image: "/glamping.PNG",

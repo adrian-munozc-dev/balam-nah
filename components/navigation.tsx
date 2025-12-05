@@ -90,7 +90,7 @@ export function Navigation() {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden xl:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -123,7 +123,7 @@ export function Navigation() {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="xl:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
@@ -140,7 +140,7 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4 animate-fade-in">
+          <div className="xl:hidden pb-4 animate-fade-in">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <a
